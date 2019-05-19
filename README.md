@@ -4,17 +4,17 @@
 ## Functionalities
 
 ### Get BMI (kg/m2)
-> getBMI: get BMI value as a float rounded into two decimals <br>
+```getBMI: get BMI value as a float rounded into two decimals``` <br>
 
 ### Get BMI status
-> getBMIStausMsg: get BMI status as a string <br>
+```getBMIStausMsg: get BMI status as a string``` <br>
 
 ### Convert height into metres
-> feetToMetre: convert the given height in feet and inches to metres
+```feetToMetre: convert the given height in feet and inches to metres```
 
 ## Install package
 ```js 
-npm install bmi-generator;
+npm install bmi-generator
 ```
 
 ## Import package
