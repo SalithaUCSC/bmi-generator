@@ -1,9 +1,15 @@
-#npm-bmi
+# npm-bmi
 ## This package is realted to BMI functionalities.
 
 ## Functionalities
-> getBMI: get BMI value as an integer 
-> getBMIStausMsg: get BMI Status as a string 
+
+### GET BMI
+> getBMI: get BMI value as an integer <br>
+
+### GET BMI STATUS
+> getBMIStausMsg: get BMI Status as a string <br>
+
+### CONVERT HEIGHT INTO METRES
 > feetToMetre: convert the given height in feet and inches to metres
 
 ## Import package
