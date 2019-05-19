@@ -3,14 +3,19 @@
 
 ## Functionalities
 
-### GET BMI
+### Get BMI (kg/m2)
 > getBMI: get BMI value as an integer <br>
 
-### GET BMI STATUS
+### Get BMI status
 > getBMIStausMsg: get BMI Status as a string <br>
 
-### CONVERT HEIGHT INTO METRES
+### Convert height into metres
 > feetToMetre: convert the given height in feet and inches to metres
+
+## Install package
+```js 
+npm install npm-bmi;
+```
 
 ## Import package
 ```js 
