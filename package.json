@@ -6,8 +6,7 @@
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "test": "tap --coverage test/index.js",
-    "posttest": "standard",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "posttest": "standard"
   },
   "repository": {
     "type": "git",
@@ -27,7 +26,6 @@
     "coveralls": "^3.0.3",
     "nyc": "^14.1.1",
     "standard": "^12.0.1",
-    "tap": "^14.0.0",
-    "semantic-release": "^15.13.12"
+    "tap": "^14.0.0"
   }
 }
