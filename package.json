@@ -1,0 +1,33 @@
+{
+  "name": "bmi-generator",
+  "version": "0.0.0-development",
+  "description": "## Functionalities",
+  "main": "index.js",
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "test": "tap --coverage test/index.js",
+    "posttest": "standard",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SalithaUCSC/bmi-generator.git"
+  },
+  "keywords": [
+    "bmi",
+    "bmi-generator"
+  ],
+  "author": "Salitha Chathuranga",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SalithaUCSC/bmi-generator/issues"
+  },
+  "homepage": "https://github.com/SalithaUCSC/bmi-generator#readme",
+  "devDependencies": {
+    "coveralls": "^3.0.3",
+    "nyc": "^14.1.1",
+    "standard": "^12.0.1",
+    "tap": "^14.0.0",
+    "semantic-release": "^15.13.12"
+  }
+}
