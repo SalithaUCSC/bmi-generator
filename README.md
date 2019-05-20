@@ -1,5 +1,5 @@
 # bmi-generator
-## This package is realted to BMI functionalities.
+### This package is related to BMI functionalities.
 
 ## Functionalities
 
