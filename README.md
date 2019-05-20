@@ -19,16 +19,16 @@ npm install bmi-generator
 
 ## Import package
 ```js 
-const bmi = require('bmi-generator');
+const bmi = require('bmi-generator')
 ```
 
 ## Usage
 ```js 
-console.log(bmi.getBMI(75, 1.65));
+console.log(bmi.getBMI(75, 1.65))
 // returns 27.55
-console.log(bmi.getBMIStausMsg(75, 1.65));
+console.log(bmi.getBMIStausMsg(75, 1.65))
 // returns Over Weight
-console.log(feetToMetre(5, 6));
+console.log(bmi.feetToMetre(5, 6))
 // returns 1.68
 ```
 
