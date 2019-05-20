@@ -1,7 +1,7 @@
 {
   "name": "bmi-generator",
   "version": "1.0.0",
-  "description": "## Functionalities",
+  "description": "Simple npm package to perform BMI related functionalities",
   "main": "index.js",
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov | coveralls",
