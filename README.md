@@ -39,4 +39,4 @@ console.log(bmi.feetToMetre(5, 6))
 [https://github.com/SalithaUCSC/bmi-generator](https://github.com/SalithaUCSC/bmi-generator)
 
 ## License
-MIT
+Apache-2.0
