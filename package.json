@@ -1,6 +1,6 @@
 {
   "name": "bmi-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple npm package to perform BMI related functionalities",
   "main": "index.js",
   "scripts": {
